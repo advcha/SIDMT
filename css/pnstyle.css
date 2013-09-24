@@ -1,0 +1,131 @@
+/* 
+    Document   : pnstyle
+    Created on : Feb 13, 2010, 10:02:13 PM
+    Author     : teddy
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body.login {
+	/*font-size: 62.5%;
+	font-family: Georgia, serif;*/
+	overflow: hidden;
+        background-color: #CFE2D1;
+        color: #000000;
+        font-family: Arial, Tahoma, Verdana, Helvetica;
+}
+
+body {
+	/*font-size: 62.5%;
+	font-family: Georgia, serif;*/
+        background-color: #CFE2D1;
+        /*color: #000000;
+        font-family: Arial, Tahoma, Verdana, Helvetica;*/
+}
+
+table.login {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login-home {
+	background: url(../images/transpBlack.png);
+	padding: 20px 0 20px 0;
+	position: relative;
+	top: 350px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 18px;
+	z-index: 6000;
+}
+
+#login-info {
+	background: url(../images/green.png);
+	padding: 0px 10px 0px 0;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: right;
+	color: white;
+	font-size: 12px;
+        font-weight: bold;
+	z-index: 6000;
+}
+
+#time-info {
+	background: url(../images/green.png);
+	padding: 0px 10px 0px 0;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: left;
+	color: white;
+	font-size: 12px;
+        font-weight: bold;
+	z-index: 6000;
+}
+
+#footer-info {
+	background: url(../images/green.png);
+	padding: 0px 10px 0px 0;
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 12px;
+        font-weight: bold;
+	z-index: 6000;
+}
+
+.bg {
+	width: 100%;
+	position: absolute;
+        display: block;
+        margin-top: -8px;
+        margin-left: -8px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+#extended-forecast {
+	position: relative;
+	top: 0px;
+	display: none;
+}
+
+#tab {
+	width: 200px;
+	height: 36px;
+	background: url(images/tab-bg.png) no-repeat;
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	left: 50px;
+}
+
+#topbar{
+    position:absolute;
+    border: 1px solid black;
+    padding: 2px;
+    background-color: #FFFFE0;
+    width: 620px;
+    visibility: hidden;
+    z-index: 100;
+}
